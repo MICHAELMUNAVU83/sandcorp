@@ -164,7 +164,7 @@
                 class="mr-4 flex shrink-0 items-center no-underline transition-transform duration-300 hover:scale-[1.04] sm:mr-6 nav:mr-12 xl:mr-16"
               >
                 <img
-                  src="images/Mark_plus_Wordmark_Sand_on_Laterite.png"
+                  src="images/Sand_Corporation_Logo_Primary-51.svg"
                   alt="Sand Corporation"
                   class="h-14 w-14 shrink-0 object-contain sm:h-16 sm:w-16"
                 />
@@ -531,7 +531,7 @@
               <div
                 class="font-display text-[20px] font-normal leading-[1.35] text-neutral-800 md:text-[24px]"
               >
-                Fragmented ownership
+                Fragmented assets
               </div>
             </div>
             <div class="group border-l border-t border-neutral-300 bg-neutral-100 p-6 transition-all duration-500 hover:-translate-y-1 hover:bg-white hover:shadow-[0_18px_40px_rgba(43,37,40,0.08)] sm:p-8">
@@ -588,7 +588,7 @@
               <figcaption
                 class="absolute bottom-0 left-0 border-l-2 border-gold-400 px-5 py-4 text-[11px] font-semibold uppercase tracking-[0.2em] text-neutral-100 md:text-[12px]"
               >
-                Identify · Understand · Move
+                One process, five moves.
               </figcaption>
             </figure>
             <div class="flex flex-col justify-center">
@@ -709,7 +709,7 @@
             <figcaption
               class="absolute bottom-0 left-0 bg-accent-1 px-4 py-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-gold-400 sm:px-5 md:text-[12px]"
             >
-              Diagnose · Align · Structure
+              Every stage tested before the next begins.
             </figcaption>
           </figure>
 
@@ -1254,7 +1254,7 @@
               <div
                 class="mb-3 text-[11px] font-semibold uppercase tracking-[0.2em] text-neutral-400 md:text-[12px]"
               >
-                The Thesis
+                The Observation
               </div>
               <blockquote
                 class="m-0 border-l-2 border-brand-700 py-1 pl-5 md:pl-6"
@@ -1393,53 +1393,83 @@
               </h2>
             </div>
 
-            <!-- Four routes from brief §8. Rendered as text rather than links
-                 because no email, phone or form destination has been supplied
-                 yet — an invented address would be worse than none. -->
-            <div
-              class="mb-12 grid grid-cols-1 gap-x-7 gap-y-7 sm:grid-cols-2 md:mb-16 lg:grid-cols-4"
+            <form
+              action="#contact"
+              method="post"
+              class="mb-12 grid max-w-[900px] grid-cols-1 gap-x-7 gap-y-6 md:mb-16 md:grid-cols-2"
             >
-              <div class="border-t border-white/25 pt-5 md:pt-6">
-                <div
-                  class="mb-2 font-display text-[19px] font-normal leading-[1.3] text-neutral-100 md:text-[22px]"
+              <div>
+                <label
+                  for="contact-category"
+                  class="mb-2 block text-[12px] font-semibold uppercase tracking-[0.16em] text-neutral-100"
+                  >Category</label
                 >
-                  I Have an Opportunity
-                </div>
-                <p class="mb-0 text-[15px] leading-[1.6] text-neutral-300 md:text-[16px]">
-                  Land, asset, development or investment opportunity.
-                </p>
-              </div>
-              <div class="border-t border-white/25 pt-5 md:pt-6">
-                <div
-                  class="mb-2 font-display text-[19px] font-normal leading-[1.3] text-neutral-100 md:text-[22px]"
+                <select
+                  id="contact-category"
+                  name="category"
+                  required
+                  class="w-full appearance-none rounded-none border border-white/30 bg-accent-1/70 px-4 py-3.5 text-[16px] text-neutral-100 outline-none transition-colors focus:border-gold-400 focus:ring-1 focus:ring-gold-400"
                 >
-                  I Represent Capital
-                </div>
-                <p class="mb-0 text-[15px] leading-[1.6] text-neutral-300 md:text-[16px]">
-                  Investment, financing or partnership interest.
-                </p>
+                  <option value="">Select a category</option>
+                  <option>I Have an Opportunity</option>
+                  <option>I Represent Capital</option>
+                  <option>I Want to Partner</option>
+                  <option>I Want to Work With SandCorp</option>
+                </select>
               </div>
-              <div class="border-t border-white/25 pt-5 md:pt-6">
-                <div
-                  class="mb-2 font-display text-[19px] font-normal leading-[1.3] text-neutral-100 md:text-[22px]"
+              <div>
+                <label
+                  for="contact-name"
+                  class="mb-2 block text-[12px] font-semibold uppercase tracking-[0.16em] text-neutral-100"
+                  >Name</label
                 >
-                  I Want to Partner
-                </div>
-                <p class="mb-0 text-[15px] leading-[1.6] text-neutral-300 md:text-[16px]">
-                  Technical, professional, development or operating capability.
-                </p>
+                <input
+                  id="contact-name"
+                  name="name"
+                  type="text"
+                  autocomplete="name"
+                  required
+                  class="w-full rounded-none border border-white/30 bg-accent-1/70 px-4 py-3.5 text-[16px] text-neutral-100 outline-none transition-colors placeholder:text-neutral-400 focus:border-gold-400 focus:ring-1 focus:ring-gold-400"
+                />
               </div>
-              <div class="border-t border-white/25 pt-5 md:pt-6">
-                <div
-                  class="mb-2 font-display text-[19px] font-normal leading-[1.3] text-neutral-100 md:text-[22px]"
+              <div class="md:col-span-2">
+                <label
+                  for="contact-email"
+                  class="mb-2 block text-[12px] font-semibold uppercase tracking-[0.16em] text-neutral-100"
+                  >Email</label
                 >
-                  I Want to Work With SandCorp
-                </div>
-                <p class="mb-0 text-[15px] leading-[1.6] text-neutral-300 md:text-[16px]">
-                  General enquiries and relationship development.
-                </p>
+                <input
+                  id="contact-email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                  class="w-full rounded-none border border-white/30 bg-accent-1/70 px-4 py-3.5 text-[16px] text-neutral-100 outline-none transition-colors placeholder:text-neutral-400 focus:border-gold-400 focus:ring-1 focus:ring-gold-400"
+                />
               </div>
-            </div>
+              <div class="md:col-span-2">
+                <label
+                  for="contact-message"
+                  class="mb-2 block text-[12px] font-semibold uppercase tracking-[0.16em] text-neutral-100"
+                  >Message</label
+                >
+                <textarea
+                  id="contact-message"
+                  name="message"
+                  rows="6"
+                  required
+                  class="w-full resize-y rounded-none border border-white/30 bg-accent-1/70 px-4 py-3.5 text-[16px] text-neutral-100 outline-none transition-colors placeholder:text-neutral-400 focus:border-gold-400 focus:ring-1 focus:ring-gold-400"
+                ></textarea>
+              </div>
+              <div class="md:col-span-2">
+                <button
+                  type="submit"
+                  class="inline-flex items-center justify-center border border-gold-400 bg-gold-400 px-7 py-3.5 text-[14px] font-semibold uppercase tracking-[0.14em] text-accent-1 transition-colors duration-300 hover:bg-transparent hover:text-gold-400 focus:outline-none focus:ring-2 focus:ring-gold-400 focus:ring-offset-2 focus:ring-offset-accent-1"
+                >
+                  Submit enquiry
+                </button>
+              </div>
+            </form>
 
             <div
               class="absolute bottom-[-64px] right-4 top-[-64px] z-[-1] flex w-[99vw] sm:bottom-[-80px] sm:right-5 sm:top-[-80px] md:bottom-[-120px] md:right-6 md:top-[-120px] lg:bottom-[-140px] lg:top-[-140px]"
@@ -1472,7 +1502,7 @@
                   class="mb-6 inline-flex no-underline transition-transform duration-300 hover:scale-[1.02]"
                 >
                   <img
-                    src="images/Mark_plus_Wordmark_Sand_on_Laterite.png"
+                    src="images/Sand_Corporation_Logo_Primary-51.svg"
                     alt="Sand Corporation"
                     loading="lazy"
                     class="h-28 w-28 object-contain md:h-32 md:w-32"
