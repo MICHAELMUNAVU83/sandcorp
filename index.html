@@ -152,6 +152,18 @@
           transform: translateY(6px);
         }
       }
+      /* Slow drift so the dune footage reads as moving */
+      .dune-drift {
+        animation: dune-drift 14s ease-in-out infinite alternate;
+      }
+      @keyframes dune-drift {
+        from {
+          transform: scale(1.08) translateX(-3%);
+        }
+        to {
+          transform: scale(1.18) translateX(3%);
+        }
+      }
       .intro-word {
         transform-box: fill-box;
         transform-origin: center;
@@ -226,7 +238,7 @@
     >
       <div class="absolute inset-0 z-10">
         <video
-          class="h-full w-full object-cover"
+          class="dune-drift h-full w-full object-cover"
           src="videos/sandcorp-dunes.mp4"
           poster="images/sandcorp-dunes-poster.jpg"
           autoplay
@@ -1334,9 +1346,9 @@
           </div>
         </div>
       </div>
-      <div class="mt-16 overflow-hidden" aria-hidden="true">
+      <div class="mt-12 overflow-hidden" aria-hidden="true">
         <div
-          class="select-none text-center text-[17.5vw] font-black leading-[0.8] tracking-[-0.04em] text-gold"
+          class="select-none text-center text-[9vw] font-black leading-[0.8] tracking-[-0.04em] text-gold"
         >
           SANDCORP
         </div>
