@@ -108,6 +108,8 @@ SandCorp identifies opportunities where value is not yet being realised, underst
 
 ## Five points where structure changes the outcome
 
+Value is rarely missing. More often it is unassembled, untested or unstructured. We work at the points where the right structure turns latent value into an opportunity that can be funded, delivered and shared.
+
 *Image:* A landscaped mixed-use district connecting established buildings and new development (`images/sandcorp-value-district.webp`)
 *Caption:* From latent value to viable opportunity
 
