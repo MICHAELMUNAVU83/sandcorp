@@ -232,25 +232,21 @@
     </script>
   </head>
   <body class="bg-sand font-sans text-sm text-body antialiased">
-    <!-- Intro: SANDCORP cut-out over dune footage (Mixkit #4149, free licence) -->
+    <!-- Intro: SANDCORP cut-out over high-resolution dune footage -->
     <div
       class="relative flex overflow-hidden h-[100svh] w-full flex-col items-center justify-center bg-sand"
     >
       <div class="absolute inset-0 z-10">
         <video
           class="dune-drift h-full w-full object-cover"
-          src="videos/sandcorp-dunes.mp4"
-          poster="images/sandcorp-dunes-poster.jpg"
+          src="videos/sandcorp-dunes-golden-aerial.mp4"
+          poster="images/sandcorp-dunes-golden-aerial-poster.webp"
           autoplay
           muted
           loop
           playsinline
           preload="auto"
           aria-hidden="true"
-          oncanplay="
-            this.playbackRate = 1.6;
-            this.play();
-          "
         ></video>
         <svg
           class="pointer-events-none absolute inset-0 h-full w-full"
